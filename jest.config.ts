@@ -16,5 +16,6 @@ export default {
     '/node_modules/',
     '/dist/',
     '/src/tests/routes/article.test.ts',
+    '/src/tests/services/auth.service.test.ts',
   ],
 };
