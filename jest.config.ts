@@ -18,4 +18,16 @@ export default {
     '/src/tests/routes/article.test.ts',
     '/src/tests/services/auth.service.test.ts',
   ],
+  reporters: [
+    'default',
+    [
+      'jest-html-reporters',
+      {
+        publicPath: './reports/jest-html',
+        filename: 'report.html',
+        includeFailureMsg: true,
+        expand: true,
+      },
+    ],
+  ],
 };
