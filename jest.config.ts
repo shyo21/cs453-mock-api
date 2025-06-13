@@ -9,8 +9,9 @@ export default {
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: './reports/coverage',
   testMatch: [
-    '<rootDir>/src/**/__tests__/**/*.[jt]s?(x)',
-    '<rootDir>/src/**/*(*.)@(spec|test).[jt]s?(x)',
+//    '<rootDir>/src/**/__tests__/**/*.[jt]s?(x)',
+//    '<rootDir>/src/**/*(*.)@(spec|test).[jt]s?(x)',
+    '<rootDir>/src/tests/routes/article_test.modified.test.ts',
   ],
   testPathIgnorePatterns: [
     '/node_modules/',

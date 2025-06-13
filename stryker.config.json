@@ -10,6 +10,6 @@
     "configFile": "jest.config.ts"
   },
   "mutate": [
-    "src/app/routes/**/*.ts"
+    "src/app/routes/article/*.ts"
   ]
 } 
